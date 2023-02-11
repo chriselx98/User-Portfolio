@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(192, 206, 247);
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #df9877;
+    color: #e64343;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    border-style: double;
+  }
+  
+  nav a {
+    color: #e4c05c;
+    font-weight: bold;
+    text-decoration: none;
+  }
+#Projects {
+    height: 300px;
+    background-color: azure;
+}
+
+#Aboutme {
+    height: 300px;
+    background-color: azure;
+}
+
+#Contact {
+    height: 100px;
+    background-color: black;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding: 30px;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
