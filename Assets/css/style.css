@@ -39,35 +39,30 @@ div a:hover {
 
 
 #Aboutme {
-    height: 400px;
+    height: 420px;
     background-color: azure;
 }
 
 #Contact {
-    height: 200px;
+    height: 300px;
     background-color: azure;
 }
 
 .apps {
 display: flex;
-flex-direction: row;
 flex-wrap: wrap;
-
-height: 100vh;
+height: 2vh;
 }
 
-.div1{
-    flex: 2 0 200px;
-} 
-.div2{
-    flex: 1 1 200px;
-    padding: 10px;
+footer.p {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
 }
 
 img {
     padding: 20px;
     border-radius: 20%;
-   
 }
 h1 {
     font-size: 40px;
